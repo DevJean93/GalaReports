@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DetalleMP" targetNamespace="http://tempuri.org/DetalleMP.xsd" xmlns:mstns="http://tempuri.org/DetalleMP.xsd" xmlns="http://tempuri.org/DetalleMP.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DetalleMP" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="DetalleMP" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DetalleMP">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="DetalleMP" msprop:Generator_RowClassName="DetalleMPRow" msprop:Generator_RowEvHandlerName="DetalleMPRowChangeEventHandler" msprop:Generator_RowDeletedName="DetalleMPRowDeleted" msprop:Generator_RowDeletingName="DetalleMPRowDeleting" msprop:Generator_RowEvArgName="DetalleMPRowChangeEvent" msprop:Generator_TablePropName="_DetalleMP" msprop:Generator_RowChangedName="DetalleMPRowChanged" msprop:Generator_UserTableName="DetalleMP" msprop:Generator_RowChangingName="DetalleMPRowChanging" msprop:Generator_TableClassName="DetalleMPDataTable" msprop:Generator_TableVarName="tableDetalleMP">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Codigo" msprop:Generator_UserColumnName="Codigo" msprop:Generator_ColumnPropNameInTable="CodigoColumn" msprop:Generator_ColumnPropNameInRow="Codigo" msprop:Generator_ColumnVarNameInTable="columnCodigo" type="xs:string" minOccurs="0" />
+              <xs:element name="Descripcion" msprop:Generator_UserColumnName="Descripcion" msprop:Generator_ColumnPropNameInTable="DescripcionColumn" msprop:Generator_ColumnPropNameInRow="Descripcion" msprop:Generator_ColumnVarNameInTable="columnDescripcion" type="xs:string" minOccurs="0" />
+              <xs:element name="Sucursal" msprop:Generator_UserColumnName="Sucursal" msprop:Generator_ColumnPropNameInTable="SucursalColumn" msprop:Generator_ColumnPropNameInRow="Sucursal" msprop:Generator_ColumnVarNameInTable="columnSucursal" type="xs:string" minOccurs="0" />
+              <xs:element name="UnidadMedida" msprop:Generator_UserColumnName="UnidadMedida" msprop:Generator_ColumnPropNameInTable="UnidadMedidaColumn" msprop:Generator_ColumnPropNameInRow="UnidadMedida" msprop:Generator_ColumnVarNameInTable="columnUnidadMedida" type="xs:string" minOccurs="0" />
+              <xs:element name="Cantidad" msprop:Generator_UserColumnName="Cantidad" msprop:Generator_ColumnPropNameInTable="CantidadColumn" msprop:Generator_ColumnPropNameInRow="Cantidad" msprop:Generator_ColumnVarNameInTable="columnCantidad" type="xs:string" minOccurs="0" />
+              <xs:element name="Total" msprop:Generator_ColumnPropNameInRow="Total" msprop:Generator_ColumnPropNameInTable="TotalColumn" msprop:Generator_ColumnVarNameInTable="columnTotal" msprop:Generator_UserColumnName="Total" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
